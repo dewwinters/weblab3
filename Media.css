@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        float: none;
+        text-align: center;
+    }
+    nav ul {
+        padding-inline-start: 0;
+    }
+    .btn {
+        width: 25%;
+    }
+    .grid-container {
+        display: block;
+        text-align: center;
+    }
+    .grid-item {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: honeydew;
+    }
+    .item8, .item9, .item11 {
+        text-align: left;
+    }
+    .item1, .item7, .item10, .item11 {
+        background-color: white;
+    }
+    .item10 {
+        border-bottom: none;
+    }
+    .item11 {
+        border-top: none;
+    }
+    h2 {
+        padding: 0;
+        text-align: center;
+    }
+    .comment {
+        float: none;
+        visibility: hidden;
+    }
+    .main-comment {
+        visibility: visible;
+    }
+    div ul {
+        height: 225px;
+
+    }
+    .dark-mode {
+        background-color: white;
+        color: black;
+    }
+}
